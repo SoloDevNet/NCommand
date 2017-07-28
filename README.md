@@ -28,3 +28,9 @@ public class Program
     }
 }
 ```
+
+Run the application and in the console type
+
+```
+help
+```

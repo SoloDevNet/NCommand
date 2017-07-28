@@ -11,6 +11,9 @@
     <Description>A library for clean command manipulation</Description>
     <PackageProjectUrl>https://github.com/SoloDevNet/NCommand</PackageProjectUrl>
     <RepositoryUrl>https://github.com/SoloDevNet/NCommand</RepositoryUrl>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

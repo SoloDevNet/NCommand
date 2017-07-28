@@ -10,9 +10,9 @@ namespace SoloDev.NCommand.Config
         public Func<Type, object> ServiceProvider { get; set; }
         public Dictionary<string, Type> Commands { get; set; }
         public Dictionary<string, Type> Executors { get; set; }
+        public CommandMarshal Marshal { get; set; }
 
         internal Actuator Actuator { get; set; }
-        internal CommandMarshal Marshal { get; set; }
 
         public Configuration()
         {

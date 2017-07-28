@@ -4,6 +4,13 @@
     <TargetFramework>netstandard1.5</TargetFramework>
     <AssemblyName>SoloDev.NCommand</AssemblyName>
     <RootNamespace>SoloDev.NCommand</RootNamespace>
+    <Authors>SoloDev</Authors>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Company>SoloDev</Company>
+    <Product>NCommand</Product>
+    <Description>A library for clean command manipulation</Description>
+    <PackageProjectUrl>https://github.com/SoloDevNet/NCommand</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/SoloDevNet/NCommand</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

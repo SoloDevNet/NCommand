@@ -16,17 +16,10 @@ namespace SoloDev.NCommand.Console
             _marshal.RegisterExecutorAssembly(typeof(TestExecutor).Assembly);
             _marshal.RegisterCommandAssembly(typeof(TestExecutor).Assembly);
 
-
-            int i = 0;
-            string[] output = new string[4];
-
-            _marshal.Config.Output = (line) =>
+            while (true)
             {
-                output[i] = line.ToString();
-                i++;
-            };
-
-            _marshal.ExecuteCommandString("test test-cmd --arg1 Arg1 --arg2 Arg2 --exec1 Exec1 --exec2 Exec2");
+                _marshal.ExecuteCommandString(System.Console.ReadLine());
+            }
         }
     }
 }

@@ -1,11 +1,11 @@
-﻿using SoloDev.NCommand.Console.Executors;
+﻿using SoloDev.NCommand.Console.Core.Executors;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SoloDev.NCommand.Console
+namespace SoloDev.NCommand.Console.Core
 {
     public class Program
     {
